@@ -49,6 +49,7 @@ form {
   margin-top: 5px;
   opacity: 0.6;
   font-size: 12px;
+  border-left: 10px;
 }
 
 .instructions {
