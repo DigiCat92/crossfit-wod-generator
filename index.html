@@ -23,21 +23,25 @@
     <title>Crossfit WOD Generator</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
+  <div class="container">
   <body>
     <header>
-      <h1>AI Crossfit WOD Generator | Almeirim Box</h1>
+      <h1>AI Crossfit WOD Generator <br> Almeirim Box</h1>
     </header>
 
     <main>
+      <form>
       <input
         type="text"
         placeholder="Pic a movement"
         autofocus
         required
+        class="instructions"
         autocomplete="off" />
-      <input type="submit" />
-    </main>
-    <div id="wod">the wod will be header</div>
+      <input type="submit" class="button"/>
+      </form>
+    <div class="wod">the wod will be header</div>
+     </main>
 
     <footer>
       This was coded by
@@ -58,6 +62,7 @@
         hosted on Netlify</a
       >
     </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
