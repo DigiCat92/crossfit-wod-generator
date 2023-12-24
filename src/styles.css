@@ -35,8 +35,10 @@ header {
 form {
   padding: 30px;
   background-color: white;
-  display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .instructions {
@@ -74,4 +76,5 @@ footer {
   line-height: 2;
   border-left: 3px solid #885df1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  border-radius: 5px;
 }
