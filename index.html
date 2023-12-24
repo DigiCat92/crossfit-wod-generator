@@ -1,73 +1,47 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin />
-      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="src/styles.css" />
-    <title>Crossfit WOD Generator</title>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <title>Crossfit WOD Generator</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
   <div class="container">
-  <body>
     <header>
       <h1>AI Crossfit WOD Generator <br> Almeirim Box</h1>
     </header>
 
     <main>
       <form id="wod-generator-form">
-      <input
-        type="text"
-        placeholder="Pic a movement"
-        autofocus
-        required
-        class="instructions"
+        <input type="text" 
+        placeholder="Pick a movement" 
+        autofocus 
+        required 
+        id="instructions" 
+        class="instructions" 
         autocomplete="off" />
-      <input type="submit" class="button"/>
+        <input type="submit" class="button" />
       </form>
 
-    <div 
-    class="wod" 
-    id="wod">
-    </div>
-     </main>
+      <div class="wod" id="wod"></div>
+    </main>
 
     <footer>
-      This Ai project was coded by
-      <a
-        href="https://github.com/DigiCat92"
-        target="_blank"
-        >Catarina Rodrigues
-      </a>
+      This AI project was coded by
+      <a href="https://github.com/DigiCat92" target="_blank">Catarina Rodrigues</a>
       and is
-      <a
-        href="https://github.com/DigiCat92/crossfit-wod-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is<a
-        href="https://crossfit-wod-generator-almeirimbox.netlify.app/"
-        target="_blank">
-        hosted on Netlify</a
-      >
+      <a href="https://github.com/DigiCat92/crossfit-wod-generator" target="_blank">open-sourced on GitHub</a>
+      and is
+      <a href="https://crossfit-wod-generator-almeirimbox.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
-    </div>
-  </body>
+  </div>
   <script src="src/index.js"></script>
 </html>
